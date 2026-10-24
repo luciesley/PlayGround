@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Demonstração de um assistente virtual para atendimento imobiliário pelo WhatsApp.">
+  <title>Assistente Virtual Imobiliário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="#conteudo" aria-label="Assistente Virtual Imobiliário">
+        <span class="brand-mark" aria-hidden="true">AV</span>
+        <span class="brand-text">
+          <strong>Assistente Virtual</strong>
+          <small>Atendimento imobiliário</small>
+        </span>
+      </a>
+      <span class="status"><span class="status-dot" aria-hidden="true"></span> Demonstração</span>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">WhatsApp com apoio inteligente</p>
+          <h1>Atendimento imobiliário claro, rápido e sem improviso.</h1>
+          <p class="lead">
+            Um assistente virtual que entende o que o cliente procura, consulta apenas
+            materiais autorizados, envia books e ajuda a organizar a visita presencial
+            com o corretor.
+          </p>
+          <ul class="pill-row" aria-label="Princípios do atendimento">
+            <li>Informações confirmadas</li>
+            <li>Materiais do Drive</li>
+            <li>Visita presencial</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="button primary" href="#como-funciona">Ver como funciona</a>
+            <a class="button ghost" href="#configuracao">O que configurar</a>
+          </div>
+        </div>
+
+        <div class="phone-wrap" aria-label="Exemplo ilustrativo de conversa no WhatsApp">
+          <div class="phone">
+            <div class="phone-top">
+              <span class="avatar" aria-hidden="true">C</span>
+              <span class="contact">
+                <strong>Seu corretor</strong>
+                <small>assistente virtual</small>
+              </span>
+              <span class="online" aria-label="online"></span>
+            </div>
+            <div class="chat">
+              <div class="day">Hoje</div>
+              <div class="bubble in">
+                Olá! Sou o assistente virtual do seu corretor. Você procura
+                apartamento, casa ou terreno?
+              </div>
+              <div class="bubble out">Estou procurando um apartamento de 2 quartos.</div>
+              <div class="bubble in">
+                Perfeito. Posso enviar o book e verificar uma visita presencial.
+                Qual região você prefere?
+              </div>
+              <div class="bubble out">Centro. Pode ser no fim da tarde.</div>
+              <div class="bubble in short">
+                Vou registrar sua preferência para o corretor confirmar o horário.
+              </div>
+            </div>
+            <div class="phone-input" aria-hidden="true">
+              <span>Mensagem</span>
+              <span class="send">Enviar</span>
+            </div>
+          </div>
+          <p class="phone-note">Exemplo ilustrativo de conversa.</p>
+        </div>
+      </section>
+
+      <section class="features" aria-labelledby="recursos">
+        <div class="section-heading">
+          <p class="eyebrow">Como o atendimento funciona</p>
+          <h2 id="recursos">Ajuda na medida certa, sem pressionar o cliente.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Atendimento consultivo</h3>
+            <p>
+              Entende região, tipo de imóvel e faixa de valor com perguntas curtas,
+              respeitando o ritmo de cada conversa.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Materiais sob controle</h3>
+            <p>
+              Localiza books, plantas e imagens no acervo autorizado e compartilha
+              apenas o que corresponde ao pedido.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Próximo passo com clareza</h3>
+            <p>
+              Organiza a preferência de visita e encaminha a confirmação do horário
+              para o corretor, sem prometer o que não foi confirmado.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="flow" id="como-funciona" aria-labelledby="fluxo">
+        <div class="section-heading">
+          <p class="eyebrow">Fluxo simples</p>
+          <h2 id="fluxo">Do primeiro contato ao agendamento.</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span>1</span>
+            <strong>Entender o pedido</strong>
+            <p>Região, tipo de imóvel, valor e preferências, sem questionário longo.</p>
+          </li>
+          <li>
+            <span>2</span>
+            <strong>Localizar o material</strong>
+            <p>Busca o book ou as imagens corretas e confirma se o arquivo é adequado.</p>
+          </li>
+          <li>
+            <span>3</span>
+            <strong>Encaminhar a visita</strong>
+            <p>Coleta dia e período preferidos e deixa a confirmação com o corretor.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="config" id="configuracao" aria-labelledby="config-title">
+        <div class="config-copy">
+          <p class="eyebrow">Antes de publicar</p>
+          <h2 id="config-title">Complete a configuração do atendimento.</h2>
+          <p>
+            A página é uma demonstração visual. Para o assistente atender de verdade,
+            preencha os dados do corretor e conecte as ferramentas autorizadas.
+          </p>
+        </div>
+        <ul class="checklist">
+          <li><span aria-hidden="true"></span>Nome do corretor e da imobiliária</li>
+          <li><span aria-hidden="true"></span>Endereço e horário de atendimento</li>
+          <li><span aria-hidden="true"></span>Pasta principal do Google Drive</li>
+          <li><span aria-hidden="true"></span>Conexão oficial do WhatsApp por QR Code</li>
+          <li><span aria-hidden="true"></span>Agenda e forma de transferência para o corretor</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Assistente Virtual Imobiliário · página de demonstração</p>
+      <p>Somente informações confirmadas nos materiais autorizados.</p>
+    </footer>
+  </div>
+</body>
+</html>
